@@ -1,8 +1,14 @@
 body{
-  width: 100%;
-  height: 100vh;
+  width: 500vw;
+  height: 90vh;
   background-color: black;
   overflow-x: scroll;
+  overflow-y: hidden;
+}
+
+.App{
+  display: flex;
+  flex-direction: row;
 }
 
 #namelogo{
@@ -12,13 +18,7 @@ body{
   color: white;
   font-size: 360px;
   position: relative;
-  top: 16%;
-}
-
-#box1{
-  background-image: url("/public/background.jpg");
-  background-size: cover;
-  height: 70vh;
+  top: 100px;
 }
 
 #scrollarrow{
@@ -27,4 +27,26 @@ body{
   right: 0;
   margin: 10px;
   font-size: 48px;
+  top: 700px;
 }
+
+#box1{
+  background-image: url("/public/background.jpg");
+  background-size: cover;
+  height: 70vh;
+  width: 100vw;
+}
+
+#box2{
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#bio{
+  color: white;
+  position: relative;
+  top: 300px;
+  left: -100px;
+}
+
