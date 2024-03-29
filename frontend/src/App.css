@@ -11,6 +11,18 @@ body{
   flex-direction: row;
 }
 
+#educationtitle{
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: white;
+  font-size: 320px;
+  position: relative;
+  top: 100px;
+  width: 100vw;
+  text-align: center;
+}
+
 #namelogo{
   font-family: "Bebas Neue", sans-serif;
   font-weight: 400;
@@ -27,7 +39,20 @@ body{
   right: 0;
   margin: 10px;
   font-size: 48px;
-  top: 700px;
+  top: 750px;
+}
+
+#chronobox{
+  width: 50vw;
+  height: 1000px;
+  position: relative;
+  left: 25%;
+  top: 100px;
+}
+
+#box3{
+  width: 100vw;
+  height: 100vh;
 }
 
 #box1{
@@ -50,3 +75,13 @@ body{
   left: -100px;
 }
 
+#bio p{
+  font-family: "Playfair Display", serif;
+  margin-top: 10px;
+  line-height: 2;
+}
+
+h2{
+  font-family: "Bebas Neue", sans-serif;
+  font-size: 48px;
+}
