@@ -5,6 +5,16 @@
     position: fixed;
 }
 
+#linkedInIcon:hover{
+    fill: #027FFE;
+    height: 25px;
+}
+
+#linkedInIcon{
+    fill: white;
+    height: 25px;
+}
+
 #volumeicon{
     color: white;
 }
