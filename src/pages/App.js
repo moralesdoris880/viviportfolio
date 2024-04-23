@@ -12,7 +12,7 @@ function App() {
     title:"Designs",
     description:"Check out all of my graphic designs built over the years!",
     src: "./3.png",
-    buttonName:"Designs"
+    buttonName:"TBA"
 },{
     title:"Blog",
     description:"Check out my blogs on Cybersecurity, Coding, Programming, and Archaeology!",
