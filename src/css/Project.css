@@ -1,0 +1,39 @@
+#projectsContainer{
+    padding-top: 125px;
+    padding-left: 100px;
+    overflow-x: hidden;
+}
+
+.projectImg{
+    height: 300px;
+    border: 1px solid;
+}
+
+#ProjectTitle{
+    font-size: 48px;
+    color: white;
+}
+
+#projectList{
+    width: 4300px;
+    background-color: white;
+    display: flex;
+    list-style-type: none;
+    height: 350px;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+.projectBox{
+    padding: 10px;
+    margin: 10px;
+    width: 800px;
+    height: 300px;
+    border: 1px solid;
+    display: flex;
+}
+
+.projectTitle{
+    font-size: 24px;
+}
