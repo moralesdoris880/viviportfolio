@@ -2,6 +2,70 @@
     padding-top: 125px;
     padding-left: 100px;
     overflow-x: hidden;
+    display: flex;
+    flex-direction: row;
+}
+
+#scrollarrow2{
+    color: white;
+    position: relative;
+    right: 0;
+    margin: 10px;
+    font-size: 48px;
+    top: 320px;
+    right: 1050px;
+}
+
+.projectButton{
+    border-radius: 20px;
+    background-color: #027FFE;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: none;
+    padding-bottom: 10px;
+}
+
+.projectButtonLink{
+    text-decoration: none;
+    color: white;
+    font-family: 'Playfair Display';
+    text-align: center;
+    position: relative;
+    bottom: 5px;
+}
+
+.projectAbout{
+    padding:10px;
+    padding-right:20px;
+    font-family: 'Playfair Display';
+    padding-right: 5px;
+    line-height: 1.5;
+    font-size: 14px;
+}
+
+.stackList{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    color: black;
+}
+
+.stack{
+    border-radius: 20px;
+    background-color: white;
+    width: 100px;
+    height: 30px;
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    border: 1px solid black;
 }
 
 .projectImg{
@@ -10,8 +74,19 @@
 }
 
 #ProjectTitle{
-    font-size: 48px;
     color: white;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 360px;
+    position: relative;
+    margin-left: 50px;
+}
+
+.projectTitle{
+    font-size: 36px;
+    color: black;
+    text-align: center;
 }
 
 #projectList{
@@ -32,8 +107,4 @@
     height: 300px;
     border: 1px solid;
     display: flex;
-}
-
-.projectTitle{
-    font-size: 24px;
 }

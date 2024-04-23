@@ -36,7 +36,6 @@ function Projects(){
     ]
     return(
         <div id="projectsContainer">
-            <h1 id="ProjectTitle">Projects</h1>
             <div id="projectList">
                 {
                     ProjectList.map((project)=>
@@ -51,11 +50,13 @@ function Projects(){
                             <p className="projectAbout">{project.aboutSentence}</p>
                             <button className="projectButton"><a href={project.src} className="projectButtonLink">Github</a></button>
                             </div>
-                            <img src={project.imgSrc? project.imgSrc: "/imagenotfound.jpeg"} className='projectImg'/>
+                            <img src={project.imgSrc? project.imgSrc: "/imagenotfound.jpeg"} className='projectImg' alt={project.aboutSentence}/>
                         </div>
                     )
                 }
             </div>
+            <h1 id="ProjectTitle">Projects</h1>
+            <span class="material-symbols-outlined" id="scrollarrow2">SCROLL arrow_back_ios_new</span>
         </div>
     )
 }

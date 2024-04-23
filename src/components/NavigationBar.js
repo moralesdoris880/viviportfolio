@@ -6,7 +6,7 @@ function NavigationBar(){
     return(
     <div id="navigationbar">
         <li id="navlist">
-            <h1 id="navlogo">doris morales</h1>
+            <NavLink to="/"><h1 id="navlogo">doris morales</h1></NavLink>
             <NavLink to="/projects" className="navitems" href=''>projects</NavLink>
             <NavLink to="/designs" className="navitems">designs</NavLink>
             <NavLink to="/about" className="navitems">about</NavLink>
