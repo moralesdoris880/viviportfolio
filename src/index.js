@@ -4,10 +4,10 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import './index.css';
 import App from './pages/App';
 import NavigationBar from './components/NavigationBar';
-import About from './pages/About';
+// import About from './pages/About';
 import Projects from './pages/Projects';
-import Designs from './pages/Designs';
-import Blog from './pages/Blog';
+// import Designs from './pages/Designs';
+// import Blog from './pages/Blog';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
